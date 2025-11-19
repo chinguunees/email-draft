@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  background-image: url(./wallpap?er_the_lords_of_the_fallen_01_1920x1080.jpg);
+} */
+.Header {
+  background-color: yellow;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.Invite {
+  background-color: darkgreen;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.Maintext {
+  background-color: lightcoral;
+  font-family: "Manrope", sans-serif;
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.Location {
+  background-color: peru;
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.location1 {
+  background-color: red;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.location2 {
+  background-color: green;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.location3 {
+  background-color: yellow;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Org {
+  background-color: aqua;
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+}
+.Header2 {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: cadetblue;
+}
+.Nominee {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: darksalmon;
+}
+.Contact {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: green;
+}
+.FAQ {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: burlywood;
+}
+.FAQ1 {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: lightpink;
+}
+.FAQ2 {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: beige;
+}
+.FAQ3 {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: cornflowerblue;
+}

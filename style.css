@@ -2,38 +2,68 @@
   margin: 0;
   padding: 0;
 }
-/* body {
-  background-image: url(./wallpap?er_the_lords_of_the_fallen_01_1920x1080.jpg);
-} */
-.Header {
-  background-color: yellow;
+body {
+  background-image: url(./MEA_Invitation_BG_2.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.HeaderMobile {
+  /* background-color: yellow; */
   width: 100%;
   font-family: "Manrope", sans-serif;
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 96px;
+  margin-bottom: 32px;
 }
-.Invite {
-  background-color: darkgreen;
+.HeaderDesk {
+  /* background-color: yellow; */
   width: 100%;
   font-family: "Manrope", sans-serif;
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-top: 128px;
+  margin-bottom: 32px;
+  display: none;
+}
+.Invite {
+  /* background-color: darkgreen; */
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  height: 64px;
+  align-items: center;
 }
 .Maintext {
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   font-family: "Manrope", sans-serif;
-  height: 48px;
+  height: 128px;
   width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  font-size: 16px;
+  padding: 0 12px;
+}
+.Maintext p {
+  max-width: 360px; /* ← width limit for readable text */
+  text-align: center;
+  width: 100%; /* allow shrinking on phone */
 }
 .Location {
-  background-color: peru;
+  /* background-color: peru; */
   font-family: "Manrope", sans-serif;
   width: 100%;
   text-align: center;
@@ -41,58 +71,81 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  height: 128px;
+  font-style: bold;
+  font-size: 16px;
 }
+
 .location1 {
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   width: 100%;
+  height: 32px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 .location2 {
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   width: 100%;
+  height: 32px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 .location3 {
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   width: 100%;
+  height: 32px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 .Org {
-  background-color: aqua;
+  /* background-color: aqua; */
   font-family: "Manrope", sans-serif;
   width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-content: center;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top: 64px;
 }
 .Header2 {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  height: 128px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: cadetblue;
+  font-weight: bold;
+  margin-top: 64px;
+  /* background-color: cadetblue; */
 }
 .Nominee {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  height: 200px;
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: darksalmon;
+  color: #c49811;
+  /* background-color: darksalmon; */
 }
 .Contact {
   font-family: "Manrope", sans-serif;
@@ -102,45 +155,128 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: green;
+  /* background-color: green; */
+  height: 128px;
+  color: #434343;
 }
 .FAQ {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  height: 32px;
+  font-size: 24px;
+  margin-top: 32px;
+  font-weight: thin;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: burlywood;
+  /* background-color: burlywood; */
 }
+
 .FAQ1 {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  height: 192px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: lightpink;
+  color: #434343;
+  /* background-color: lightpink; */
 }
 .FAQ2 {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  height: 192px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: beige;
+  color: #434343;
+  /* background-color: beige; */
 }
 .FAQ3 {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  height: 192px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: cornflowerblue;
+  color: #434343;
+  /* background-color: cornflowerblue; */
+}
+.textblock {
+  width: 100%;
+  padding: 0 12px; /* 12px left/right spacing */
+  display: flex;
+  justify-content: center; /* center block */
+}
+
+.textblock p {
+  max-width: 360px; /* readable width */
+  width: 100%;
+  text-align: center;
+  color: #434343;
+}
+@media screen and (min-width: 768px) {
+  .Maintext {
+    font-size: 24px;
+    /* height: 256px; */
+  }
+  .Location {
+    height: 256px;
+    font-size: 24px;
+  }
+  .Header2 {
+    height: 256px;
+    font-size: 24px;
+  }
+  .textblock p {
+    max-width: 660px;
+    font-size: 24px;
+  }
+  .Maintext p {
+    max-width: 660px;
+  }
+  .Nominee {
+    font-size: 28px;
+  }
+  .FAQ p {
+    font-size: 24px;
+  }
+  .FAQ1 h4 {
+    font-size: 24px;
+  }
+  .FAQ1 {
+    gap: 24px;
+    height: 256px;
+  }
+  .FAQ2 {
+    gap: 24px;
+    height: 256px;
+  }
+  .FAQ3 {
+    gap: 24px;
+    height: 256px;
+  }
+  .FAQ2 h4 {
+    font-size: 24px;
+  }
+  .FAQ3 h4 {
+    font-size: 24px;
+  }
+  .Invite {
+    font-size: 24px;
+  }
+  .HeaderMobile {
+    display: none;
+  }
+  .HeaderDesk {
+    display: flex;
+  }
 }
